@@ -4,7 +4,7 @@ updates:
   - package-ecosystem: github-actions
     directory: /
     schedule:
-      interval: monthly
+      interval: semiannually
     groups:
       all_dependencies:
         patterns:
@@ -13,7 +13,7 @@ updates:
   - package-ecosystem: uv
     directory: /
     schedule:
-      interval: monthly
+      interval: semiannually
 
   - package-ecosystem: npm
     directory: /locust/webui
